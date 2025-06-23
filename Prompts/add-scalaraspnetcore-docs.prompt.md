@@ -18,6 +18,5 @@ if (app.Environment.IsDevelopment())
         options.OpenApiRoutePattern = "/openapi/v1.json";
         options.HideClientButton = true;
     });
-
 }
 ```
