@@ -15,7 +15,7 @@ if (app.Environment.IsDevelopment())
     _ = app.MapScalarApiReference("/", options =>
     {
         options.DefaultOpenAllTags = false;
-        options.OpenApiRoutePattern = "/docs/openapi/v1.json";
+        options.OpenApiRoutePattern = "/openapi/v1.json";
         options.HideClientButton = true;
     });
 
