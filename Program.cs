@@ -11,7 +11,14 @@ WebApplication app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    _ = app.MapOpenApi();
+    _ = app.MapOpenApi(); // for OpenAPI route
+
+    _ = app.MapScalarApiReference("/", options =>
+    {
+        options.DefaultOpenAllTags = false;
+        options.OpenApiRoutePattern = "/openapi/v1.json";
+        options.HideClientButton = true;
+    });
 }
 
 app.UseHttpsRedirection();
