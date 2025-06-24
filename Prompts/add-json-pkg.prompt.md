@@ -5,6 +5,9 @@ Add the following Entity Framework Core NuGet packages to this project using Dev
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.Tools
 - Microsoft.EntityFrameworkCore.SqlServer
+- HotChocolate.AspNetCore
+- HotChocolate.Data
+- HotChocolate.Data.EntityFramework
 
 # Constraints:
 - Do not write any additional code or explanation.
