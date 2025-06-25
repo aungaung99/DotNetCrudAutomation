@@ -1,6 +1,0 @@
-@DotNetCrudAutomation_HostAddress = http://localhost:5122
-
-GET {{DotNetCrudAutomation_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
